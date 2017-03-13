@@ -1,0 +1,43 @@
+DROP TABLE IF EXISTS test;
+
+CREATE TABLE `test` (
+`id` INT(8) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+`name` VARCHAR(25) NOT NULL,
+`age` INT NOT NULL,
+`isAdmin` BIT(1) NOT NULL DEFAULT false,
+`createdDate` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP);
+
+insert into test (id, name, age, isAdmin) values (1, 'Frances', 88, false);
+insert into test (id, name, age, isAdmin) values (2, 'Phillip', 53, true);
+insert into test (id, name, age, isAdmin) values (3, 'Emily', 88, true);
+insert into test (id, name, age, isAdmin) values (4, 'Joshua', 2, true);
+insert into test (id, name, age, isAdmin) values (5, 'Joyce', 89, false);
+insert into test (id, name, age, isAdmin) values (6, 'Russell', 60, true);
+insert into test (id, name, age, isAdmin) values (7, 'Eugene', 60, false);
+insert into test (id, name, age, isAdmin) values (8, 'Patricia', 9, false);
+insert into test (id, name, age, isAdmin) values (9, 'Doris', 90, true);
+insert into test (id, name, age, isAdmin) values (10, 'Joan', 20, false);
+insert into test (id, name, age, isAdmin) values (11, 'Mildred', 57, true);
+insert into test (id, name, age, isAdmin) values (12, 'Russell', 2, true);
+insert into test (id, name, age, isAdmin) values (13, 'Pamela', 14, false);
+insert into test (id, name, age, isAdmin) values (14, 'Jessica', 63, false);
+insert into test (id, name, age, isAdmin) values (15, 'Anne', 73, false);
+insert into test (id, name, age, isAdmin) values (16, 'Lisa', 78, true);
+insert into test (id, name, age, isAdmin) values (17, 'Sandra', 52, false);
+insert into test (id, name, age, isAdmin) values (18, 'Norma', 76, true);
+insert into test (id, name, age, isAdmin) values (19, 'Earl', 55, true);
+insert into test (id, name, age, isAdmin) values (20, 'Chris', 83, false);
+insert into test (id, name, age, isAdmin) values (21, 'Eric', 70, true);
+insert into test (id, name, age, isAdmin) values (22, 'Howard', 15, false);
+insert into test (id, name, age, isAdmin) values (23, 'Charles', 54, true);
+insert into test (id, name, age, isAdmin) values (24, 'Robin', 15, false);
+insert into test (id, name, age, isAdmin) values (25, 'Amanda', 8, false);
+insert into test (id, name, age, isAdmin) values (26, 'Jane', 25, true);
+insert into test (id, name, age, isAdmin) values (27, 'Phillip', 31, false);
+insert into test (id, name, age, isAdmin) values (28, 'Rebecca', 11, true);
+insert into test (id, name, age, isAdmin) values (29, 'Henry', 3, true);
+insert into test (id, name, age, isAdmin) values (30, 'Susan', 96, true);
+insert into test (id, name, age, isAdmin) values (31, 'Roger', 4, true);
+insert into test (id, name, age, isAdmin) values (32, 'Howard', 93, false);
+insert into test (id, name, age, isAdmin) values (33, 'Chris', 11, false);
+insert into test (id, name, age, isAdmin) values (34, 'Amanda', 67, false);
